@@ -1,0 +1,27 @@
+modLoader="javafml"
+loaderVersion="[47,)"
+license="MIT"
+
+[[dependencies.deepslatemod]]
+    modId="forge"
+    mandatory=true
+    versionRange="[47.2.0,)"
+    ordering="NONE"
+    side="BOTH"
+
+[[dependencies.deepslatemod]]
+    modId="minecraft"
+    mandatory=true
+    versionRange="[1.20.1,1.21)"
+    ordering="NONE"
+    side="BOTH"
+
+[[mods]]
+    modId="deepslatemod"
+    version="1.0.0"
+    displayName="NoDeepslate"
+    description='''
+    深層岩（Deepslate）をすべて通常の石に置換します。
+    深層岩の丸石は石切り台から入手できます。
+    '''
+    authors="SpringRoll2025"
